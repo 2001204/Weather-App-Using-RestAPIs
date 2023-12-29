@@ -1,0 +1,144 @@
+
+
+body {
+    background-color: #fcecec;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://www.natgeokids.com/wp-content/uploads/2015/01/Weather-facts-3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+img{
+    border-radius: 10px;
+}
+nav {
+    /* background-color: #ffb8b8; */
+    padding: 10px;
+    color: rgb(208, 255, 0);
+}
+
+a {
+
+    color: rgb(208, 255, 0);
+}
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 15px;
+}
+
+.nav-link:hover {
+    background-color: #f7e7e7;
+}
+
+.container {
+    margin-top: 20px;
+    background-color: #f5f8fd;
+    padding: 20px;
+    background: transparent;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #2b2a2a;
+}
+
+.form-control {
+    padding-left: 25px;
+    background: url("https://static.thenounproject.com/png/101791-200.png") no-repeat right;
+    background-size: 20px;
+  }
+
+.form-label {
+    color: #cff900;
+}
+
+#btn {
+    background-color: #f487e6;
+}
+
+#btn:hover {
+    background-color: #0056b3;
+}
+
+#location {
+    color: #ed0606;
+}
+
+#icon {
+    max-width: 100px;
+}
+
+#temperature {
+    color: #ff00e6;
+}
+
+#condition {
+    color: #000000;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.col-lg-6 {
+    text-align: center;
+}
+
+h2 {
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.footer {
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+background: transparent;
+color: white;
+text-align: center;
+}
+
+.fa {
+      padding: 5px;
+font-size: 30px;
+width: 50px;
+text-align: center;
+text-decoration: none;
+margin: 5px 2px;
+cursor: pointer;
+border-radius: 10px;
+align-items: right;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+background: #20345f;
+color: white;
+}
+
+.fa-twitter {
+background: #55ACEE;
+color: white;
+}
+
+.fa-linkedin {
+background: #076f9f;
+color: white;
+}
+
+.fa-youtube {
+background: #bb0000;
+color: white;
+}
+
+.fa-instagram {
+background: linear-gradient(45deg, rgb(247, 8, 0), rgb(253, 24, 169));
+color: white;
+}
